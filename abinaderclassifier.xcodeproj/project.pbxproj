@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA6A1B927037F0900FA7F35 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6A1B827037F0900FA7F35 /* Work.swift */; };
+		1FA6A1BB27037F4D00FA7F35 /* Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6A1BA27037F4D00FA7F35 /* Inference.swift */; };
+		1FA6A1BD2704B7FD00FA7F35 /* datafinal-merged-abinader.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6A1BC2704B7FC00FA7F35 /* datafinal-merged-abinader.csv */; };
+		1FFA5E4826FBA5BA00F353D4 /* abinaderclassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA5E4726FBA5BA00F353D4 /* abinaderclassifierApp.swift */; };
+		1FFA5E4A26FBA5BA00F353D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA5E4926FBA5BA00F353D4 /* ContentView.swift */; };
+		1FFA5E4C26FBA5BD00F353D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFA5E4B26FBA5BD00F353D4 /* Assets.xcassets */; };
+		1FFA5E4F26FBA5BD00F353D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFA5E4E26FBA5BD00F353D4 /* Preview Assets.xcassets */; };
+		1FFA5E5B26FBA5BD00F353D4 /* abinaderclassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA5E5A26FBA5BD00F353D4 /* abinaderclassifierTests.swift */; };
+		1FFA5E6626FBA5BD00F353D4 /* abinaderclassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA5E6526FBA5BD00F353D4 /* abinaderclassifierUITests.swift */; };
+		1FFA5E7426FBA62000F353D4 /* AbinaderClassifier5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA5E7326FBA62000F353D4 /* AbinaderClassifier5.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FFA5E5726FBA5BD00F353D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FFA5E3C26FBA5BA00F353D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFA5E4326FBA5BA00F353D4;
+			remoteInfo = abinaderclassifier;
+		};
+		1FFA5E6226FBA5BD00F353D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FFA5E3C26FBA5BA00F353D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFA5E4326FBA5BA00F353D4;
+			remoteInfo = abinaderclassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA6A1B827037F0900FA7F35 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		1FA6A1BA27037F4D00FA7F35 /* Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inference.swift; sourceTree = "<group>"; };
+		1FA6A1BC2704B7FC00FA7F35 /* datafinal-merged-abinader.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "datafinal-merged-abinader.csv"; sourceTree = "<group>"; };
+		1FFA5E4426FBA5BA00F353D4 /* abinaderclassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abinaderclassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFA5E4726FBA5BA00F353D4 /* abinaderclassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abinaderclassifierApp.swift; sourceTree = "<group>"; };
+		1FFA5E4926FBA5BA00F353D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FFA5E4B26FBA5BD00F353D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FFA5E4E26FBA5BD00F353D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FFA5E5026FBA5BD00F353D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFA5E5126FBA5BD00F353D4 /* abinaderclassifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = abinaderclassifier.entitlements; sourceTree = "<group>"; };
+		1FFA5E5626FBA5BD00F353D4 /* abinaderclassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abinaderclassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFA5E5A26FBA5BD00F353D4 /* abinaderclassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abinaderclassifierTests.swift; sourceTree = "<group>"; };
+		1FFA5E5C26FBA5BD00F353D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFA5E6126FBA5BD00F353D4 /* abinaderclassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abinaderclassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFA5E6526FBA5BD00F353D4 /* abinaderclassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abinaderclassifierUITests.swift; sourceTree = "<group>"; };
+		1FFA5E6726FBA5BD00F353D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFA5E7326FBA62000F353D4 /* AbinaderClassifier5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AbinaderClassifier5.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFA5E4126FBA5BA00F353D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFA5E5326FBA5BD00F353D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFA5E5E26FBA5BD00F353D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA6A1BE2704B82C00FA7F35 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6A1BC2704B7FC00FA7F35 /* datafinal-merged-abinader.csv */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		1FFA5E3B26FBA5BA00F353D4 = {
+			isa = PBXGroup;
+			children = (
+				1FFA5E4626FBA5BA00F353D4 /* abinaderclassifier */,
+				1FFA5E5926FBA5BD00F353D4 /* abinaderclassifierTests */,
+				1FFA5E6426FBA5BD00F353D4 /* abinaderclassifierUITests */,
+				1FFA5E4526FBA5BA00F353D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFA5E4526FBA5BA00F353D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA5E4426FBA5BA00F353D4 /* abinaderclassifier.app */,
+				1FFA5E5626FBA5BD00F353D4 /* abinaderclassifierTests.xctest */,
+				1FFA5E6126FBA5BD00F353D4 /* abinaderclassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFA5E4626FBA5BA00F353D4 /* abinaderclassifier */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6A1BE2704B82C00FA7F35 /* CSV */,
+				1FFA5E4726FBA5BA00F353D4 /* abinaderclassifierApp.swift */,
+				1FFA5E4926FBA5BA00F353D4 /* ContentView.swift */,
+				1FA6A1B827037F0900FA7F35 /* Work.swift */,
+				1FFA5E7326FBA62000F353D4 /* AbinaderClassifier5.mlmodel */,
+				1FFA5E4B26FBA5BD00F353D4 /* Assets.xcassets */,
+				1FFA5E5026FBA5BD00F353D4 /* Info.plist */,
+				1FFA5E5126FBA5BD00F353D4 /* abinaderclassifier.entitlements */,
+				1FFA5E4D26FBA5BD00F353D4 /* Preview Content */,
+				1FA6A1BA27037F4D00FA7F35 /* Inference.swift */,
+			);
+			path = abinaderclassifier;
+			sourceTree = "<group>";
+		};
+		1FFA5E4D26FBA5BD00F353D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA5E4E26FBA5BD00F353D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FFA5E5926FBA5BD00F353D4 /* abinaderclassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA5E5A26FBA5BD00F353D4 /* abinaderclassifierTests.swift */,
+				1FFA5E5C26FBA5BD00F353D4 /* Info.plist */,
+			);
+			path = abinaderclassifierTests;
+			sourceTree = "<group>";
+		};
+		1FFA5E6426FBA5BD00F353D4 /* abinaderclassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA5E6526FBA5BD00F353D4 /* abinaderclassifierUITests.swift */,
+				1FFA5E6726FBA5BD00F353D4 /* Info.plist */,
+			);
+			path = abinaderclassifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFA5E4326FBA5BA00F353D4 /* abinaderclassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFA5E6A26FBA5BD00F353D4 /* Build configuration list for PBXNativeTarget "abinaderclassifier" */;
+			buildPhases = (
+				1FFA5E4026FBA5BA00F353D4 /* Sources */,
+				1FFA5E4126FBA5BA00F353D4 /* Frameworks */,
+				1FFA5E4226FBA5BA00F353D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = abinaderclassifier;
+			productName = abinaderclassifier;
+			productReference = 1FFA5E4426FBA5BA00F353D4 /* abinaderclassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FFA5E5526FBA5BD00F353D4 /* abinaderclassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFA5E6D26FBA5BD00F353D4 /* Build configuration list for PBXNativeTarget "abinaderclassifierTests" */;
+			buildPhases = (
+				1FFA5E5226FBA5BD00F353D4 /* Sources */,
+				1FFA5E5326FBA5BD00F353D4 /* Frameworks */,
+				1FFA5E5426FBA5BD00F353D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FFA5E5826FBA5BD00F353D4 /* PBXTargetDependency */,
+			);
+			name = abinaderclassifierTests;
+			productName = abinaderclassifierTests;
+			productReference = 1FFA5E5626FBA5BD00F353D4 /* abinaderclassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FFA5E6026FBA5BD00F353D4 /* abinaderclassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFA5E7026FBA5BD00F353D4 /* Build configuration list for PBXNativeTarget "abinaderclassifierUITests" */;
+			buildPhases = (
+				1FFA5E5D26FBA5BD00F353D4 /* Sources */,
+				1FFA5E5E26FBA5BD00F353D4 /* Frameworks */,
+				1FFA5E5F26FBA5BD00F353D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FFA5E6326FBA5BD00F353D4 /* PBXTargetDependency */,
+			);
+			name = abinaderclassifierUITests;
+			productName = abinaderclassifierUITests;
+			productReference = 1FFA5E6126FBA5BD00F353D4 /* abinaderclassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFA5E3C26FBA5BA00F353D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1FFA5E4326FBA5BA00F353D4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1FFA5E5526FBA5BD00F353D4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1FFA5E4326FBA5BA00F353D4;
+					};
+					1FFA5E6026FBA5BD00F353D4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1FFA5E4326FBA5BA00F353D4;
+					};
+				};
+			};
+			buildConfigurationList = 1FFA5E3F26FBA5BA00F353D4 /* Build configuration list for PBXProject "abinaderclassifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FFA5E3B26FBA5BA00F353D4;
+			productRefGroup = 1FFA5E4526FBA5BA00F353D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFA5E4326FBA5BA00F353D4 /* abinaderclassifier */,
+				1FFA5E5526FBA5BD00F353D4 /* abinaderclassifierTests */,
+				1FFA5E6026FBA5BD00F353D4 /* abinaderclassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFA5E4226FBA5BA00F353D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFA5E4F26FBA5BD00F353D4 /* Preview Assets.xcassets in Resources */,
+				1FA6A1BD2704B7FD00FA7F35 /* datafinal-merged-abinader.csv in Resources */,
+				1FFA5E4C26FBA5BD00F353D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFA5E5426FBA5BD00F353D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFA5E5F26FBA5BD00F353D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFA5E4026FBA5BA00F353D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6A1BB27037F4D00FA7F35 /* Inference.swift in Sources */,
+				1FA6A1B927037F0900FA7F35 /* Work.swift in Sources */,
+				1FFA5E7426FBA62000F353D4 /* AbinaderClassifier5.mlmodel in Sources */,
+				1FFA5E4A26FBA5BA00F353D4 /* ContentView.swift in Sources */,
+				1FFA5E4826FBA5BA00F353D4 /* abinaderclassifierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFA5E5226FBA5BD00F353D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFA5E5B26FBA5BD00F353D4 /* abinaderclassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFA5E5D26FBA5BD00F353D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFA5E6626FBA5BD00F353D4 /* abinaderclassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FFA5E5826FBA5BD00F353D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFA5E4326FBA5BA00F353D4 /* abinaderclassifier */;
+			targetProxy = 1FFA5E5726FBA5BD00F353D4 /* PBXContainerItemProxy */;
+		};
+		1FFA5E6326FBA5BD00F353D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFA5E4326FBA5BA00F353D4 /* abinaderclassifier */;
+			targetProxy = 1FFA5E6226FBA5BD00F353D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FFA5E6826FBA5BD00F353D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FFA5E6926FBA5BD00F353D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1FFA5E6B26FBA5BD00F353D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = abinaderclassifier/abinaderclassifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"abinaderclassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = DZWA3WX7AU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = abinaderclassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imcool.abinaderclassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FFA5E6C26FBA5BD00F353D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = abinaderclassifier/abinaderclassifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"abinaderclassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = DZWA3WX7AU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = abinaderclassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imcool.abinaderclassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1FFA5E6E26FBA5BD00F353D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5A2XRX9J8N;
+				INFOPLIST_FILE = abinaderclassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imcool.abinaderclassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abinaderclassifier.app/Contents/MacOS/abinaderclassifier";
+			};
+			name = Debug;
+		};
+		1FFA5E6F26FBA5BD00F353D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5A2XRX9J8N;
+				INFOPLIST_FILE = abinaderclassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imcool.abinaderclassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abinaderclassifier.app/Contents/MacOS/abinaderclassifier";
+			};
+			name = Release;
+		};
+		1FFA5E7126FBA5BD00F353D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5A2XRX9J8N;
+				INFOPLIST_FILE = abinaderclassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imcool.abinaderclassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = abinaderclassifier;
+			};
+			name = Debug;
+		};
+		1FFA5E7226FBA5BD00F353D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5A2XRX9J8N;
+				INFOPLIST_FILE = abinaderclassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imcool.abinaderclassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = abinaderclassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFA5E3F26FBA5BA00F353D4 /* Build configuration list for PBXProject "abinaderclassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFA5E6826FBA5BD00F353D4 /* Debug */,
+				1FFA5E6926FBA5BD00F353D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFA5E6A26FBA5BD00F353D4 /* Build configuration list for PBXNativeTarget "abinaderclassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFA5E6B26FBA5BD00F353D4 /* Debug */,
+				1FFA5E6C26FBA5BD00F353D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFA5E6D26FBA5BD00F353D4 /* Build configuration list for PBXNativeTarget "abinaderclassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFA5E6E26FBA5BD00F353D4 /* Debug */,
+				1FFA5E6F26FBA5BD00F353D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFA5E7026FBA5BD00F353D4 /* Build configuration list for PBXNativeTarget "abinaderclassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFA5E7126FBA5BD00F353D4 /* Debug */,
+				1FFA5E7226FBA5BD00F353D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFA5E3C26FBA5BA00F353D4 /* Project object */;
+}
